@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Portifólio</title>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="./assents/logo.png" alt="Logo">
+                </a>
+            </div>
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#especialidades">Especialidade</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#portifólio">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="https://wa.me/5521990606340">
+                    <button>Contato</button>
+                </a>
+            </div>
+        </div> <!-- interface -->
+    </header>
+    <main>
+        <section class="topo-do-site" id="inicio">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>Criando soluçoes digitais inovadoras</h1>
+                        <p>Desenvolvedor web criativo e inovador, pronto para seu próximo projeto.Criando soluções digitais únicas, com design impactante e intuitivo, funcionalidade avançada e segura, vamos transformar sua ideia em realidade online!</p>
+
+                        <div class="btn-contato">
+                            <a href="https://wa.me/5521990606340">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="img-topo-site">
+                        <img src="./assents/capa.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="especialidades" id="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <SPan>ESPECIALIDADES.</SPan></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Website</h3>
+                        <p>Um website é uma coleção de páginas na internet que fornecem informações, serviços ou experiências interativas aos usuários. É uma plataforma digital que permite às empresas, organizações e indivíduos se conectarem com o público, compartilharem conteúdo, produtos ou serviços e estabelecerem uma presença online!</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="bi bi-cart"></i>
+                        <h3>Loja online</h3>
+                        <p>Uma loja online é um tipo de plataforma de comércio eletrônico que permite aos consumidores comprar produtos ou serviços diretamente pela internet. Também conhecida como e-commerce, uma loja online oferece: Catálogo de produtos com descrições e imagens, suporte ao cliente etc!</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="bi bi-wordpress"></i>
+                        <h3>Blog</h3>
+                        <p>Um blog é um tipo de site que contém artigos, opiniões e informações sobre um tema específico, atualizados regularmente. Originalmente um diário online, hoje os blogs abordam diversas áreas, como:  Notícias e atualidades, estilo de vida e moda etc!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="./assents/capa.png" alt="capa">
+                    </div>
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER <span>SOU KAIO FERREIRA.</span></h2>
+                        <P>Meu nome é Kaio, tenho 18 anos e sou um desenvolvedor web em formação. Sou uma pessoa determinada, criativa e comunicativa, com paixão pela programação. Estou sempre buscando aprender e explorar novas ideias para aprimorar minhas habilidades. Busco equilíbrio em minha vida, combinando estudos e crescimento profissional. Estou ansioso para contribuir com meus conhecimentos e habilidades na área de desenvolvimento web.</P>
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/kaio_front/profilecard/?igsh=N3AxdnFoOW0wa2Zn"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="www.linkedin.com/in/kaiodev"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/kaiodevf10?tab=repositories"><button><i class="bi bi-github"></i></button></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <section class="portifólio" id="portifólio">
+            <div cllass="interface">
+                <h2 class="titulo">MEU<span>PORTIFÓLIO.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(./assents/mario.png);">
+                        <div class="overlay">Projeto 1</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(./assents/pizzaria.png);">
+                        <div class="overlay">Projeto 2</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(./assents/imobiliaria.png);">
+                        <div class="overlay">Projeto 2</div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="formlurio">
+            <div class="interface">
+                <h2 class="titulo">FALA <SPan>COMIGO.</SPan></h2>
+
+                <form method="post" action="enviar.php">
+                    <div class="input-single">
+                        <input type="text" name="nome" id="nome" placeholder="Seu nome completo:" required>
+                        <label for="nome">Seu nome completo</label>
+                    </div>
+
+                    <div class="input-single">
+                        <input type="email" name="email" id="email" placeholder="Seu e-mail:" required>
+                        <label for="email">Seu e-mail</label>
+                    </div>
+
+                    <div class="input-single">
+                        <input type="number" name="número" id="número" placeholder="Seu celular:">
+                        <label for="número"></label>
+                    </div>
+
+                    <div class="input-single">
+                        <textarea name="sua mensagem" id="sua mensagem" placeholder="Sua mensagem:"></textarea required>
+                        <label for="Sua mensagem"></label>    
+                    </div> 
+
+                    <div class="btn-enviar"><input type="submit" value="Enviar"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="interace">
+            <div class="line-footer">
+                <div class="flex">
+                <div class="logo-footer">
+                    <img src="./assents/logo reserva.png" alt="">
+                </div> 
+                <div class="btn-social">
+                    <a href="https://www.instagram.com/kaio_front/profilecard/?igsh=N3AxdnFoOW0wa2Zn"><button><i class="bi bi-instagram"></i></button></a>
+                    <a href="www.linkedin.com/in/kaiodev"><button><i class="bi bi-linkedin"></i></button></a>
+                    <a href="https://github.com/kaiodevf10?tab=repositories"><button><i class="bi bi-github"></i></button></a>
+                </div>
+            </div>
+            </div>
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:devkaiofront@gmail.com">devkaiofront@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
